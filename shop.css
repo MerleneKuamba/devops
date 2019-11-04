@@ -1,0 +1,133 @@
+.sb-page-header{
+		background-color: white; 
+		background-image: url(../fond-ecran-blanc.jpg);
+		margin-left: auto;
+		margin-right: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+.navbar{
+	overflow: hidden;
+	background-color: #ffefd5;
+	position:fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a{
+	float: left;
+	display: block;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#block1{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		background-color: #fff;
+	    height: 50px;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	}
+
+#block2{
+		/*margin-top: 60px;
+		margin-left: 200px;
+		margin-right: 200px;*/
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #fff;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	    width: 50%;
+	}
+
+#blockfemme{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		background-color: #fff;
+	    height: 250px;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	    width: 50%;
+	    text-align: center;
+	}
+
+#blockhomme{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		background-color: #fff;
+	    height: 250px;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	    width: 50%;
+	    text-align: center;
+	}
+
+#more{
+	width:85px;
+	height:85px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+}
+
+
+div.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 100px;
+	overflow: hidden;
+}
+
+div.gallery:hover{
+	border: 1px solid #777;
+}
+
+div.gallery img{
+	width: 100%;
+	height: 100px;
+}
+
+div.desc{
+	padding: 15px;
+	text-align: center;
+}
+
+.about{
+	background-color: #ffefd5;
+	margin-top: 50px;
+	margin-bottom:15px;
+}
+
+.foot{
+	bottom: 0;
+	background-color: #fff;
+	position:fixed;
+	width: 100%;
+	clear: both;
+}
+

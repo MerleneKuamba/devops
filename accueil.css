@@ -1,0 +1,127 @@
+body{
+		/*background-image: linear-gradient(to left,rgb(188,187,193),rgb(245,245,245));*/
+		background-attachment:fixed
+}
+/*
+.container{
+	background-color: white; 
+	background-image: url(../fond-ecran-blanc.jpg);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+label {
+		width:200px;
+		margin-top: 3px;
+		display:inline-block;
+		float:left;
+		padding:3px;
+}
+input {
+		height:27px; 
+		width:200px; 
+		padding:5px 8px;	
+}
+select{
+		width:92px;
+		height:27px;
+}
+input[type="button"],[type="submit"],[type="reset"]{
+		width:110px;
+		height:31px;
+		margin-left:4px;
+		border-radius:4px;
+		color:#eee;
+		background:#4895c4;
+		
+}				
+input[type="button"]:hover,[type="submit"]:hover,[type="reset"]:hover{
+	    cursor:hand;
+}		
+
+#annee{
+		width:2px;
+}
+
+.formulaire2{
+		position:absolute;
+		left:14px;
+		top:110px;
+		
+}
+#menu{
+		width:340px;
+		position:absolute;
+		left:60px;
+		margin-top:50px;
+		text-align:center;
+		height: 46px;
+		margin-bottom:2px;
+		padding:0px;
+		padding-bottom:7px;
+		border-radius: 4px;
+		
+		background:#4895c4;
+}
+#formulaire_complet{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		background-color: #fff;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+		top:165px;
+		border:1px black solid;
+		background:#eee;
+		border-radius:7px;
+}
+#form1{
+			position:relative;
+			left:730px; 
+}		
+#login{
+		float:left; 
+}
+#form1 label{
+		position:relative;
+		width:0px;
+		top:-6px;
+		left:4px;
+		color:#1422ff;
+}
+#form1 input[type="text"]{
+		position:relative;
+		top:20px;
+		margin-right:0px; 
+}
+#form1 input[type="password"]{
+		position:relative;
+		top:20px;
+		margin-right:0px;
+}		
+#form1 input[type="submit"]{
+		position:relative;
+		top:-25px;
+		left:440px;
+}
+#formulaire1_complet{
+		margin-top:0px;
+		width:100%;
+		border:1px black solid;
+		height:100px;
+		background:rgb(109,156,207);
+		background-image: linear-gradient(to top,rgb(109,156,207),rgb(102,223,210));
+		
+}
+#icon_de_fond{
+		position:absolute;
+		left:-650px;
+		top:150px; 
+		width:350px;
+		height:250px;
+}
+		
+*/

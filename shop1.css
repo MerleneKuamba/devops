@@ -1,0 +1,295 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.main{
+	max-width: 1000px;
+	margin: auto;
+}
+.row{
+	margin: 8px -16px;
+}
+.row{
+	padding: 5px;
+}
+.column{
+	float: left;
+	width: 33.33%;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content{
+	background-color: white;
+	padding: 10px;
+}
+
+.sb-page-header{
+		background-color: white; 
+		
+		margin-left: auto;
+		margin-right: auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+.container{
+	background-color: white; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.logo_barre{
+	float: left;
+	background-color: white;
+	overflow: hidden;
+	position:fixed;
+	top: 0;
+	width: 80%;
+}
+
+.contenu{
+	float: left;
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 150px;
+}
+
+.tabart{
+	float: left;
+	width: 40%;
+	height:80%;
+	margin-left: 90px;
+	margin-bottom: 25px;
+}
+
+.home_page{
+	background-image: url(pictures/img_home.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	text-shadow: 0 0 0.2em #FFD700;
+	font-family: "Lucida Calligraphy";
+	color:black;
+}
+
+div#logo{
+	float: left;
+	width: 60%;
+}
+
+div#panier{
+	float: left;
+	width: 40%;
+}
+
+div#navbar{
+	float: left;
+	/*overflow: hidden;*/
+	background-color: #000000;
+	/*position:fixed;*/
+	width: 100%;
+}
+
+.active {
+    background-color: #FFD700;
+}
+
+#pan{
+	
+}
+
+
+#link{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*div#menu{
+	width: 170px;
+	height: 626px;
+}
+
+div#logo{
+	margin-left: 170px;
+	margin-right: 170px;
+	display: block;
+}
+
+div#panier{
+	float: right;
+	overflow: hidden;
+	width: 170px;
+	height: 626px;
+}*/
+
+img#imgpan{
+	display: block;
+	width: 45px;
+	height: 60px;	
+	float: right;
+}
+
+#pan{
+	float: right;
+}
+
+
+
+#navbar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#block1{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		background-color: #fff;
+	    height: 50px;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	}
+
+#block2{
+		/*margin-top: 60px;
+		margin-left: 200px;
+		margin-right: 200px;*/
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #fff;
+	    border-radius: 11px;
+	    border: 1px solid gray;
+	    padding: 6px;
+	    background: rgba(255,239,213,0.3);
+	    overflow: hidden;
+	    width: 50%;
+	}
+
+
+#more{
+	width:85px;
+	height:85px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+}
+
+
+
+
+div.desc{
+	padding: 15px;
+	text-align: center;
+}
+
+.about{
+	float: left;
+	background-color: #D3D3D3;
+	margin-top: 50px;
+	margin-bottom:15px;
+	width: 100%;
+	color: black;
+}
+
+.foot{
+	bottom: 0;
+	background-color: #FFD700;
+	position:fixed;
+	width: 80%;
+	clear: both;
+}
+
+#load{
+	margin-top: 230px;
+	margin-left: 60px;
+	font-size:xx-large;
+}
+
+#load_img{
+	width: 500px;
+	height: 200px;
+}
+
+#load2{
+	margin-top: 0px;
+	margin-left: 1000px;
+	font-size:xx-large;
+}
+
+.formach{
+
+}
+
+#navbar .search-container {
+  float: right;
+}
+
+#navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+#navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#navbar .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar .search-container {
+    float: none;
+  }
+  #navbar a, #navbar input[type=text], #navbar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  #navbar input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+  #navbar .search-container #loupe{
+  	width: 50px;
+  	height: 50px;
+  }
+
+  .promo{
+	float: left;
+	background-color: #D3D3D3;
+	margin-top: 50px;
+	margin-bottom:15px;
+	width: 100%;
+	color: black;
+}
